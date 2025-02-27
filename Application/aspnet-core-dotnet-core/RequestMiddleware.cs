@@ -6,7 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
-
+/// <summary>
+/// request middle ware information
+/// </summary> <summary>
+/// 
+/// </summary>
 public class RequestMiddleware
 {
     private readonly RequestDelegate _next;
